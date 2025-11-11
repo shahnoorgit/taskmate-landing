@@ -1,0 +1,17 @@
+{
+  "name": "TaxMate - Simplify freelance finances",
+  "short_name": "TaxMate",
+  "description": "Create invoices, track GST, and understand your income with AI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
+

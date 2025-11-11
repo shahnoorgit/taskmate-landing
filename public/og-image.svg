@@ -1,0 +1,42 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- OG Image for social media sharing -->
+  
+  <!-- Background gradient -->
+  <rect width="1200" height="630" fill="url(#gradient)"/>
+  
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Decorative circles -->
+  <circle cx="200" cy="150" r="100" fill="white" opacity="0.1"/>
+  <circle cx="1000" cy="500" r="150" fill="white" opacity="0.1"/>
+  
+  <!-- Logo -->
+  <rect x="80" y="80" width="120" height="120" rx="24" fill="white"/>
+  <text x="140" y="165" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#3B82F6" text-anchor="middle">T</text>
+  
+  <!-- Main text -->
+  <text x="80" y="280" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="white">
+    TaxMate
+  </text>
+  
+  <text x="80" y="350" font-family="Arial, sans-serif" font-size="40" fill="white" opacity="0.95">
+    Simplify freelance finances
+  </text>
+  
+  <text x="80" y="420" font-family="Arial, sans-serif" font-size="28" fill="white" opacity="0.85">
+    Create invoices • Track GST • AI-powered summaries
+  </text>
+  
+  <!-- CTA badge -->
+  <rect x="80" y="480" width="280" height="60" rx="30" fill="white"/>
+  <text x="220" y="520" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#3B82F6" text-anchor="middle">
+    Join the Waitlist
+  </text>
+</svg>
+

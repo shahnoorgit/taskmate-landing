@@ -1,0 +1,17 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- TaxMate Logo: Modern "T" with financial elements -->
+  <rect width="200" height="200" rx="40" fill="#3B82F6"/>
+  
+  <!-- Modern "T" letter -->
+  <path d="M60 60H140V85H125V140H75V85H60V60Z" fill="white"/>
+  
+  <!-- Accent line (representing financial tracking) -->
+  <rect x="65" y="120" width="70" height="4" rx="2" fill="#60A5FA" opacity="0.6"/>
+  <rect x="75" y="130" width="50" height="4" rx="2" fill="#60A5FA" opacity="0.4"/>
+  
+  <!-- Small decorative dots (representing data points) -->
+  <circle cx="150" cy="150" r="6" fill="#60A5FA" opacity="0.8"/>
+  <circle cx="165" cy="140" r="4" fill="#60A5FA" opacity="0.6"/>
+  <circle cx="170" cy="155" r="5" fill="#60A5FA" opacity="0.7"/>
+</svg>
+
