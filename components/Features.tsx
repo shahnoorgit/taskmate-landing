@@ -314,7 +314,7 @@ export default function Features({ onOpenModal }: FeaturesProps) {
               Lock in ₹999 Lifetime Access
             </h3>
             <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-5 sm:mb-6 md:mb-8">
-              Join the waitlist now — <span className="font-bold text-blue-600">available only to the first 100 members</span>. After that, it&apos;s ₹299/month.
+              Join the waitlist now — <span className="font-bold text-blue-600">available only to the first 100 members</span>. After that, it&apos;s ₹499/month.
             </p>
             <button
               onClick={onOpenModal}
