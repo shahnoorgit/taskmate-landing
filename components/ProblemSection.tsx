@@ -12,24 +12,24 @@ export default function ProblemSection() {
     {
       emoji: "😫",
       time: "Before TaxMate",
-      title: "The Freelance Money Struggle",
-      description: "Chasing late payments, drowning in Excel sheets, panicking about GST deadlines. Sound familiar?",
+      title: "The Freelance Money Mess",
+      description: "Late nights chasing unpaid invoices. Excel sheets that don't add up. GST panic every quarter. You're talented — not a part-time accountant.",
       color: "from-red-500 to-orange-500",
       bg: "from-red-50 to-orange-50",
     },
     {
       emoji: "✨",
       time: "With TaxMate",
-      title: "Clarity & Control",
-      description: "One dashboard. Clear numbers. Automated reminders. Your finances, finally simple.",
+      title: "Finally, It Just Works",
+      description: "One clean dashboard. Invoices sent in 30 seconds. GST auto-calculated. AI summaries you can actually understand. No jargon, no stress.",
       color: "from-blue-500 to-purple-500",
       bg: "from-blue-50 to-purple-50",
     },
     {
       emoji: "🚀",
       time: "The Result",
-      title: "Focus on What Matters",
-      description: "5+ hours saved monthly. No more spreadsheet anxiety. Just you and your craft.",
+      title: "Time Back Where It Belongs",
+      description: "5+ hours saved every month. No spreadsheet anxiety. No surprise tax bills. Just you, your craft, and the confidence that your money is handled.",
       color: "from-green-500 to-emerald-500",
       bg: "from-green-50 to-emerald-50",
     },
@@ -77,14 +77,14 @@ export default function ProblemSection() {
             className="inline-block px-4 py-2 bg-gradient-to-r from-gray-100 to-gray-200
                        rounded-full text-xs sm:text-sm font-bold text-gray-700 mb-4 sm:mb-6"
           >
-            📖 Your Journey
+            📖 How It Feels
           </motion.span>
           
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-4 sm:mb-6 tracking-tight">
             From chaos to <span className="text-gradient">clarity</span>
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto font-medium">
-            See how TaxMate transforms the freelance finance experience
+            Here's what changes when you stop fighting your finances and start managing them.
           </p>
         </motion.div>
 
@@ -171,12 +171,7 @@ export default function ProblemSection() {
         >
           <div className="max-w-3xl mx-auto">
             <p className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-700 italic mb-4">
-              &ldquo;Stop fighting with spreadsheets. Start focusing on your craft.&rdquo;
-            </p>
-            <p className="text-sm sm:text-base text-gray-600">
-              Most freelancers waste <span className="font-bold text-gray-900">6+ hours monthly</span> on invoices and tracking.
-              <br className="hidden sm:block" />
-              <span className="font-semibold text-blue-600">TaxMate cuts that to under 30 minutes.</span>
+              &ldquo;Most freelancers waste 6+ hours monthly on invoices and tracking. TaxMate cuts that to under 30 minutes — so you can get back to doing what you&apos;re actually paid for.&rdquo;
             </p>
           </div>
         </motion.div>

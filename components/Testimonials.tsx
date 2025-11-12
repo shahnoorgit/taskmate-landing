@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 export default function Testimonials() {
   const testimonials = [
     {
-      quote: "Creating invoices used to take me 15 minutes. If TaxMate can do it in 30 seconds, I'm sold. This is exactly what freelancers need.",
+      quote: "Creating invoices used to take me 15 minutes per client. If TaxMate can do it in 30 seconds like they say, I'm all in. This is exactly what freelancers like me need.",
       name: "Priya S.",
       role: "Freelance Designer",
       location: "Bangalore",
@@ -18,7 +18,7 @@ export default function Testimonials() {
       color: "from-pink-500 to-rose-500",
     },
     {
-      quote: "I've tried 5 different invoicing tools. They're all too complicated. A simple, fast solution? That's what I've been waiting for.",
+      quote: "I've tried five different invoicing tools. They're all too complicated or too expensive. A simple Indian solution built for freelancers? Sign me up.",
       name: "Arjun K.",
       role: "Full-Stack Developer",
       location: "Mumbai",
@@ -26,7 +26,7 @@ export default function Testimonials() {
       color: "from-blue-500 to-cyan-500",
     },
     {
-      quote: "Managing clients and invoices in spreadsheets is exhausting. Having everything automated in one place will be a lifesaver.",
+      quote: "Managing 10+ clients in Excel is exhausting. Having everything automated in one dashboard — invoices, GST, insights — will be a lifesaver.",
       name: "Meera R.",
       role: "Content Creator",
       location: "Pune",
@@ -34,7 +34,7 @@ export default function Testimonials() {
       color: "from-purple-500 to-indigo-500",
     },
     {
-      quote: "The templates look amazing. Finally, an invoicing tool that makes me look professional without spending hours on design.",
+      quote: "The mockups look clean and professional. Finally, an invoicing tool that won't make me look like I'm using a spreadsheet from 2010.",
       name: "Pritam D.",
       role: "Marketing Consultant",
       location: "Delhi",
@@ -84,7 +84,7 @@ export default function Testimonials() {
             className="inline-block px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 
                        rounded-full text-xs sm:text-sm font-bold text-blue-700 mb-4 sm:mb-6"
           >
-            💬 Early Access Feedback
+            💬 Early Reactions
           </motion.span>
           
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-4 sm:mb-6 tracking-tight">
@@ -92,7 +92,7 @@ export default function Testimonials() {
             <span className="text-gradient">who value their time</span>
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto font-medium">
-            Join designers, developers, and creators who are done wasting time on invoicing
+            Join designers, developers, and creators across India who are done wasting time on invoicing chaos.
           </p>
         </motion.div>
 
@@ -192,7 +192,7 @@ export default function Testimonials() {
                          border border-gray-200 shadow-2xl text-center
                          bg-gradient-to-br from-blue-50/50 via-purple-50/30 to-pink-50/50">
               <h3 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 mb-8 sm:mb-10">
-                Why early adopters love TaxMate
+                Why early adopters are excited
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-10">
                 <div className="text-center">
@@ -204,7 +204,7 @@ export default function Testimonials() {
                     Lightning Fast
                   </p>
                   <p className="text-sm sm:text-base text-gray-600">
-                    Create invoices in under 30 seconds, not 15 minutes
+                    Create invoices in 30 seconds, not 15 minutes
                   </p>
                 </div>
                 <div className="text-center">
@@ -213,10 +213,10 @@ export default function Testimonials() {
                     <span className="text-3xl">🎨</span>
                   </div>
                   <p className="font-bold text-gray-900 text-lg sm:text-xl mb-2">
-                    Beautiful Templates
+                    Built for India
                   </p>
                   <p className="text-sm sm:text-base text-gray-600">
-                    Professional designs that make you look good
+                    GST-ready, rupee-native, freelancer-focused
                   </p>
                 </div>
                 <div className="text-center">

@@ -18,7 +18,7 @@ export default function Features({ onOpenModal }: FeaturesProps) {
       title: "One-click Invoicing",
       outcome: "Get paid faster",
       description:
-        "Create branded GST-ready invoices in under a minute. Send them instantly, track when they're viewed.",
+        "Create branded, GST-compliant invoices in under a minute. Send them instantly. Track when clients view them. Never chase payments in the dark again.",
       gradient: "from-blue-500 to-cyan-400",
     },
     {
@@ -26,7 +26,7 @@ export default function Features({ onOpenModal }: FeaturesProps) {
       title: "Smart Dashboard",
       outcome: "Stay in control",
       description:
-        "See exactly how much you've earned, what's pending, and how much GST you owe — no surprises.",
+        "See exactly how much you've earned, what's pending, and what you owe in GST — no surprises, no digging through sheets. Just clarity, at a glance.",
       gradient: "from-purple-500 to-pink-400",
     },
     {
@@ -34,7 +34,7 @@ export default function Features({ onOpenModal }: FeaturesProps) {
       title: "AI Monthly Summary",
       outcome: "Understand your money",
       description:
-        "Get clear, human summaries of your freelance income. Like having a financial buddy who speaks your language.",
+        "Get clear, human-language summaries of your freelance income every month. Like having a financial buddy who speaks your language — not an accountant.",
       gradient: "from-orange-500 to-rose-400",
     },
   ];
@@ -80,7 +80,7 @@ export default function Features({ onOpenModal }: FeaturesProps) {
             className="inline-block px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 
                        rounded-full text-xs sm:text-sm font-bold text-blue-700 mb-4 sm:mb-6"
           >
-            ✨ Powerful Features
+            ✨ Why TaxMate?
           </motion.span>
           
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-4 sm:mb-6 tracking-tight px-2">
@@ -88,8 +88,8 @@ export default function Features({ onOpenModal }: FeaturesProps) {
             <span className="text-gradient">nothing you don&apos;t.</span>
           </h2>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto font-medium px-4 mb-3">
-            TaxMate is built for real freelancers — simple, powerful, and designed to
-            save you <span className="text-blue-600 font-bold">hours every week</span>.
+            TaxMate isn't bloated accounting software. It's built specifically for Indian freelancers — 
+            fast, intuitive, and designed to save you <span className="text-blue-600 font-bold">hours every week</span>.
           </p>
           <motion.p
             initial={{ opacity: 0 }}
@@ -98,7 +98,7 @@ export default function Features({ onOpenModal }: FeaturesProps) {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-sm sm:text-base text-gray-500 italic px-4"
           >
-            💡 No more Excel — focus on your clients, not columns.
+            💡 No more Excel hell. Focus on clients, not columns.
           </motion.p>
         </motion.div>
 
@@ -180,10 +180,13 @@ export default function Features({ onOpenModal }: FeaturesProps) {
         >
           <div className="text-center mb-8 sm:mb-12">
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
-              Here&apos;s what it <span className="text-gradient">looks like</span>
+              Here&apos;s what it <span className="text-gradient">looks like</span> <span className="text-gray-500 italic">(coming soon)</span>
             </h3>
             <p className="text-base sm:text-lg text-gray-600">
-              Clean, simple, and built for how you actually work
+              Clean. Simple. Built for how freelancers actually work.
+            </p>
+            <p className="text-sm text-gray-500 italic mt-2">
+              💡 Early access members will help shape this dashboard — your feedback matters.
             </p>
           </div>
 
@@ -297,7 +300,7 @@ export default function Features({ onOpenModal }: FeaturesProps) {
               Ready to simplify your freelance finances?
             </h3>
             <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-5 sm:mb-6 md:mb-8">
-              Join the waitlist and lock in <span className="font-bold text-blue-600">lifetime access for ₹999</span>
+              Join the waitlist and <span className="font-bold text-blue-600">lock in lifetime access for ₹999</span> — available only to the first 100 members.
             </p>
             <button
               onClick={onOpenModal}
@@ -314,7 +317,7 @@ export default function Features({ onOpenModal }: FeaturesProps) {
               </span>
             </button>
             <p className="text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4">
-              💎 Limited to first 100 users • No credit card required
+              💎 No screenshots yet. No credit card required. Just your email and early access when we launch.
             </p>
           </div>
         </motion.div>

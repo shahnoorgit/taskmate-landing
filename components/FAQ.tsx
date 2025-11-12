@@ -14,24 +14,34 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: "Is TaxMate free to join?",
+      question: "Is joining the waitlist free?",
       answer:
-        "Yes! Join the waitlist for free. The first 100 members get lifetime access for just ₹999 (normally a monthly subscription). No credit card needed to join.",
+        "Yes — 100% free, no credit card required. The first 100 members will get lifetime access for just ₹999 (normally ₹299/month after launch). Lock in your spot now and never pay again.",
     },
     {
-      question: "When will it launch?",
+      question: "When will TaxMate launch?",
       answer:
-        "We're launching beta in early 2025. Waitlist members get first access and can help shape the product with their feedback.",
+        "We're launching private beta in early 2026. Waitlist members get first access, exclusive updates, and a say in how the product evolves. You'll be building this with us.",
     },
     {
-      question: "Is my financial data secure?",
+      question: "Is my financial data safe?",
       answer:
-        "Absolutely. Your data is encrypted, stored securely, and never shared. We're privacy-first — your information stays yours, always.",
+        "Absolutely. Your data is encrypted end-to-end, stored securely, and never shared with anyone. We're privacy-first — your information stays yours, always.",
     },
     {
-      question: "Why is this better than Excel?",
+      question: "Why is this better than Excel or Google Sheets?",
       answer:
-        "TaxMate is built specifically for freelancers. It's visual, automated, and gives you AI-powered insights. No formulas, no macros, no headaches — just clarity.",
+        "TaxMate is purpose-built for Indian freelancers. It's visual, automated, and GST-compliant. No formulas to remember. No macros to debug. No midnight panic wondering if you calculated tax correctly. Just clarity.",
+    },
+    {
+      question: "Can I see screenshots or a demo?",
+      answer:
+        "Not yet — we're still in development. But that's exactly why your feedback as an early member matters. You'll help shape how TaxMate looks, feels, and works. Think of this as getting VIP access to a private beta.",
+    },
+    {
+      question: "What if I don't like it after launch?",
+      answer:
+        "If TaxMate doesn't make your life easier, we'll refund you — no questions asked. But we're confident once you see 5+ hours return to your week, you won't want to go back to spreadsheets.",
     },
   ];
 
@@ -62,7 +72,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-            Everything you need to know about TaxMate before joining the waitlist.
+            We kept it real — here's what people actually ask about TaxMate.
           </p>
         </motion.div>
 

@@ -118,9 +118,9 @@ export default function Hero({ onOpenModal }: HeroProps) {
                      leading-[1.2] sm:leading-[1.15] md:leading-[1.1] 
                      tracking-tight max-w-5xl mx-auto"
         >
-          <span className="text-gray-900">Freelancing is hard.</span>
+          <span className="text-gray-900">Freelancing is hard enough.</span>
           <br />
-          <span className="text-gradient-hero">Managing money</span>
+          <span className="text-gradient-hero">Your finances</span>
           <br />
           <span className="text-gradient-hero">shouldn&apos;t be.</span>
         </motion.h1>
@@ -133,8 +133,8 @@ export default function Hero({ onOpenModal }: HeroProps) {
                      mb-6 sm:mb-8 md:mb-10 lg:mb-12 
                      max-w-3xl mx-auto leading-relaxed font-medium"
         >
-          TaxMate helps freelancers create invoices, track GST, and get AI-powered
-          summaries — all in one <span className="text-gray-900 font-semibold">beautiful dashboard</span>.
+          TaxMate is the financial sidekick for Indian freelancers and creators — invoices, 
+          GST tracking, and income insights that actually make sense. <span className="text-gray-900 font-semibold">Coming soon to your inbox.</span>
         </motion.p>
 
         <motion.div
@@ -151,7 +151,7 @@ export default function Hero({ onOpenModal }: HeroProps) {
                      w-full sm:w-auto px-6 sm:px-8 md:px-10 group shadow-2xl"
           >
             <span className="flex items-center justify-center space-x-2">
-              <span>🚀 Join the Waitlist</span>
+              <span>🚀 Get Early Access</span>
               <svg className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -163,7 +163,7 @@ export default function Hero({ onOpenModal }: HeroProps) {
                      min-h-[52px] sm:min-h-[56px] md:min-h-[60px] 
                      w-full sm:w-auto px-6 sm:px-8 md:px-10"
           >
-            See how it works
+            See What's Inside
           </button>
         </motion.div>
 
@@ -204,10 +204,10 @@ export default function Hero({ onOpenModal }: HeroProps) {
           </div>
           <div className="text-center sm:text-left">
             <p className="text-xs sm:text-sm md:text-base font-bold text-gray-900">
-              Join Priya, Arjun, and others
+              Join Priya, Arjun, and 200+ others
             </p>
             <p className="text-xs text-gray-600">
-              who said yes to simpler finances
+              who got tired of spreadsheets
             </p>
           </div>
         </motion.div>

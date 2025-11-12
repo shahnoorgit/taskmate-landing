@@ -84,7 +84,7 @@ export default function StickyCTA({ onOpenModal }: StickyCTAProps) {
                        shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95
                        flex items-center space-x-1.5 sm:space-x-2 whitespace-nowrap group"
             >
-              <span>Join Now</span>
+              <span>Get Early Access</span>
               <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>

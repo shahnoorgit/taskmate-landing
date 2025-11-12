@@ -196,11 +196,10 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                       </motion.div>
                       <h3 className="text-2xl sm:text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 
                                    bg-clip-text text-transparent">
-                        You&apos;re on the list!
+                        You&apos;re in!
                       </h3>
                       <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
-                        We&apos;ll email you before launch. Get ready to simplify your
-                        freelance finances!
+                        Check your email — we just sent you confirmation. Welcome to the crew.
                       </p>
                     </motion.div>
                   ) : (
@@ -246,7 +245,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                             onChange={(e) =>
                               setFormData({ ...formData, email: e.target.value })
                             }
-                            placeholder="priya@example.com"
+                            placeholder="you@example.com"
                             className="w-full px-4 py-3.5 rounded-xl border-2 border-gray-300 
                                      focus:ring-2 focus:ring-blue-500 focus:border-blue-500 
                                      transition-all outline-none bg-white
@@ -270,7 +269,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                             onChange={(e) =>
                               setFormData({ ...formData, name: e.target.value })
                             }
-                            placeholder="Priya Sharma"
+                            placeholder="Your first name"
                             className="w-full px-4 py-3.5 rounded-xl border-2 border-gray-300 
                                      focus:ring-2 focus:ring-blue-500 focus:border-blue-500 
                                      transition-all outline-none bg-white
@@ -325,7 +324,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                                     d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
                                   />
                                 </svg>
-                                <span>Joining...</span>
+                                <span>Joining…</span>
                               </>
                             ) : (
                               <>
