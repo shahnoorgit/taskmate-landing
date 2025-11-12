@@ -16,7 +16,7 @@ export default function FAQ() {
     {
       question: "Is joining the waitlist free?",
       answer:
-        "Yes — 100% free, no credit card required. The first 100 members will get lifetime access for just ₹999 (normally ₹299/month after launch). Lock in your spot now and never pay again.",
+        "Yes — 100% free, no credit card required. The first 100 members will get lifetime access for just ₹999 (normally ₹499/month after launch). Lock in your spot now and never pay again.",
     },
     {
       question: "When will TaxMate launch?",
@@ -32,11 +32,6 @@ export default function FAQ() {
       question: "Why is this better than Excel or Google Sheets?",
       answer:
         "TaxMate is purpose-built for Indian freelancers. It's visual, automated, and GST-compliant. No formulas to remember. No macros to debug. No midnight panic wondering if you calculated tax correctly. Just clarity.",
-    },
-    {
-      question: "Can I see screenshots or a demo?",
-      answer:
-        "Not yet — we're still in development. But that's exactly why your feedback as an early member matters. You'll help shape how TaxMate looks, feels, and works. Think of this as getting VIP access to a private beta.",
     },
     {
       question: "What if I don't like it after launch?",
@@ -72,7 +67,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-            We kept it real — here's what people actually ask about TaxMate.
+            We kept it real — here&apos;s what people actually ask about TaxMate.
           </p>
         </motion.div>
 

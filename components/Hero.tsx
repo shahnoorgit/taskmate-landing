@@ -163,7 +163,7 @@ export default function Hero({ onOpenModal }: HeroProps) {
                      min-h-[52px] sm:min-h-[56px] md:min-h-[60px] 
                      w-full sm:w-auto px-6 sm:px-8 md:px-10"
           >
-            See What's Inside
+            See What&apos;s Inside
           </button>
         </motion.div>
 

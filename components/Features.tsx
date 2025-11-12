@@ -88,7 +88,7 @@ export default function Features({ onOpenModal }: FeaturesProps) {
             <span className="text-gradient">nothing you don&apos;t.</span>
           </h2>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto font-medium px-4 mb-3">
-            TaxMate isn't bloated accounting software. It's built specifically for Indian freelancers — 
+            TaxMate isn&apos;t bloated accounting software. It&apos;s built specifically for Indian freelancers — 
             fast, intuitive, and designed to save you <span className="text-blue-600 font-bold">hours every week</span>.
           </p>
           <motion.p

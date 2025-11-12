@@ -84,7 +84,7 @@ export default function ProblemSection() {
             From chaos to <span className="text-gradient">clarity</span>
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto font-medium">
-            Here's what changes when you stop fighting your finances and start managing them.
+            Here&apos;s what changes when you stop fighting your finances and start managing them.
           </p>
         </motion.div>
 
