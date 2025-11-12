@@ -73,9 +73,9 @@ export default function Hero({ onOpenModal }: HeroProps) {
         />
       </div>
 
-      {/* Glass-morphism header with logo and CTA */}
-      <header className="absolute top-0 left-0 right-0 z-20 backdrop-blur-sm bg-white/5">
-        <div className="container-custom flex items-center justify-between py-4 sm:py-5 px-4 sm:px-6">
+      {/* Simple header with logo and CTA */}
+      <header className="absolute top-0 left-0 right-0 z-20">
+        <div className="container-custom flex items-center justify-between py-5 sm:py-6 md:py-7 px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
@@ -108,7 +108,7 @@ export default function Hero({ onOpenModal }: HeroProps) {
       </header>
 
       {/* Hero Content */}
-      <div className="container-custom relative z-10 text-center px-4 sm:px-6 py-20 sm:py-0">
+      <div className="container-custom relative z-10 text-center px-4 sm:px-6 pt-28 sm:pt-32 md:pt-36 pb-12 sm:pb-16">
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -133,7 +133,7 @@ export default function Hero({ onOpenModal }: HeroProps) {
                      mb-6 sm:mb-8 md:mb-10 lg:mb-12 
                      max-w-3xl mx-auto leading-relaxed font-medium"
         >
-          TaxMate is the financial sidekick for Indian freelancers and creators — invoices, 
+          TaxMate is the financial sidekick for freelancers and creators — invoices, 
           GST tracking, and income insights that actually make sense. <span className="text-gray-900 font-semibold">Coming soon to your inbox.</span>
         </motion.p>
 

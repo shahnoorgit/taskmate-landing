@@ -34,6 +34,11 @@ export default function FAQ() {
         "TaxMate is purpose-built for Indian freelancers. It's visual, automated, and GST-compliant. No formulas to remember. No macros to debug. No midnight panic wondering if you calculated tax correctly. Just clarity.",
     },
     {
+      question: "Can I see screenshots or a demo?",
+      answer:
+        "Screenshots coming soon. Beta users get exclusive sneak peeks + a voice to shape the product. Join now to be first in line.",
+    },
+    {
       question: "What if I don't like it after launch?",
       answer:
         "If TaxMate doesn't make your life easier, we'll refund you — no questions asked. But we're confident once you see 5+ hours return to your week, you won't want to go back to spreadsheets.",

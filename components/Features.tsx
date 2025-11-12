@@ -88,7 +88,7 @@ export default function Features({ onOpenModal }: FeaturesProps) {
             <span className="text-gradient">nothing you don&apos;t.</span>
           </h2>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto font-medium px-4 mb-3">
-            TaxMate isn&apos;t bloated accounting software. It&apos;s built specifically for Indian freelancers — 
+            TaxMate isn&apos;t bloated accounting software. It&apos;s built for freelancers, creators & solo businesses — 
             fast, intuitive, and designed to save you <span className="text-blue-600 font-bold">hours every week</span>.
           </p>
           <motion.p
@@ -180,7 +180,7 @@ export default function Features({ onOpenModal }: FeaturesProps) {
         >
           <div className="text-center mb-8 sm:mb-12">
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
-              Here&apos;s what it <span className="text-gradient">looks like</span> <span className="text-gray-500 italic">(coming soon)</span>
+              Here&apos;s what it <span className="text-gradient">looks like</span>
             </h3>
             <p className="text-base sm:text-lg text-gray-600">
               Clean. Simple. Built for how freelancers actually work.
@@ -197,9 +197,20 @@ export default function Features({ onOpenModal }: FeaturesProps) {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 
                             rounded-2xl sm:rounded-3xl blur-3xl opacity-20" />
 
-              {/* Main dashboard card */}
+              {/* Coming Soon Overlay Badge */}
+              <div className="absolute top-4 sm:top-8 left-1/2 transform -translate-x-1/2 z-20">
+                <div className="bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 rounded-full shadow-2xl border-2 border-white/50 backdrop-blur-sm">
+                  <p className="text-white font-bold text-sm sm:text-base flex items-center space-x-2">
+                    <span className="animate-pulse">✨</span>
+                    <span>Coming Soon — Help Us Build It</span>
+                  </p>
+                </div>
+              </div>
+
+              {/* Main dashboard card with blur effect */}
               <div className="relative bg-white/70 backdrop-blur-2xl rounded-xl sm:rounded-2xl md:rounded-3xl 
-                            border-2 border-white/50 shadow-2xl overflow-hidden p-4 sm:p-6 md:p-8 lg:p-10">
+                            border-2 border-white/50 shadow-2xl overflow-hidden p-4 sm:p-6 md:p-8 lg:p-10
+                            filter blur-[2px] select-none pointer-events-none">
                 {/* Dashboard header */}
                 <div className="flex items-center justify-between mb-4 sm:mb-6 md:mb-8">
                   <div>
@@ -296,11 +307,14 @@ export default function Features({ onOpenModal }: FeaturesProps) {
           <div className="bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 
                        rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 
                        border-2 border-blue-200/50 shadow-xl max-w-4xl mx-auto">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2 sm:mb-3">
-              Ready to simplify your freelance finances?
+            <p className="text-sm sm:text-base font-bold text-blue-600 mb-2 uppercase tracking-wider">
+              🔥 Early Bird Pricing
+            </p>
+            <h3 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 mb-2 sm:mb-3">
+              Lock in ₹999 Lifetime Access
             </h3>
             <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-5 sm:mb-6 md:mb-8">
-              Join the waitlist and <span className="font-bold text-blue-600">lock in lifetime access for ₹999</span> — available only to the first 100 members.
+              Join the waitlist now — <span className="font-bold text-blue-600">available only to the first 100 members</span>. After that, it&apos;s ₹299/month.
             </p>
             <button
               onClick={onOpenModal}
@@ -316,8 +330,9 @@ export default function Features({ onOpenModal }: FeaturesProps) {
                 </svg>
               </span>
             </button>
+            
             <p className="text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4">
-              💎 No screenshots yet. No credit card required. Just your email and early access when we launch.
+              🔥 Only 87 spots left • No credit card • Join 200+ on the waitlist
             </p>
           </div>
         </motion.div>

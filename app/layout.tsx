@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL('https://taxmate.dtrue.online'),
   title: "TaxMate — GST Invoice Software for Indian Freelancers | Free Waitlist",
-  description: "Create GST-compliant invoices in 30 seconds. Track freelance income, automate GST calculations, and manage clients in one dashboard. Built for Indian freelancers, designers, and developers. Join 200+ creators on the waitlist.",
+  description: "Create GST-compliant invoices in 30 seconds. Track freelance income, automate GST calculations, and manage clients in one dashboard. Built for freelancers, creators & solo businesses in India. Join 200+ on the waitlist.",
   keywords: [
     "GST invoice software India",
     "freelance invoice generator",
